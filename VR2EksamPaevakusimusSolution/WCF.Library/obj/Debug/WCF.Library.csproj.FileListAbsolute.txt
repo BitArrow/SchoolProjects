@@ -1,0 +1,16 @@
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\WCF.Library.dll.config
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\WCF.Library.dll
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\WCF.Library.pdb
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\BLL.dll
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\DAL.dll
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\EntityFramework.dll
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\Models.dll
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\BLL.pdb
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\DAL.pdb
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\Models.pdb
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\EntityFramework.xml
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\obj\Debug\WCF.Library.csprojResolveAssemblyReference.cache
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\obj\Debug\WCF.Library.dll
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WCF.Library\obj\Debug\WCF.Library.pdb

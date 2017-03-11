@@ -1,0 +1,1 @@
+c:\users\tauri\documents\visual studio 2015\Projects\VR2EksamPaevakusimusSolution\WUAClient\WUAClient.csproj;x86

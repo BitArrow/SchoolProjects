@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DailyService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:32595/DailyService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:32595/DailyService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:32595/DailyService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/BLL.DTO" />
+      <xsd:import schemaLocation="http://localhost:32595/DailyService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WCF.Library" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDailyService_getAllQuestions_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllQuestions" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_getAllQuestions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllQuestionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_getQuestionById_InputMessage">
+    <wsdl:part name="parameters" element="tns:getQuestionById" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_getQuestionById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getQuestionByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionByTitle_InputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionByTitle" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionByTitle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionByTitleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionByDescription_InputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionByDescription" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionByDescription_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionByDescriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_addQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:addQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_addQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_updateQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_updateQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_deleteQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_deleteQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_getAllQuestionAnswers_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllQuestionAnswers" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_getAllQuestionAnswers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllQuestionAnswersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_getQuestionAnswerById_InputMessage">
+    <wsdl:part name="parameters" element="tns:getQuestionAnswerById" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_getQuestionAnswerById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getQuestionAnswerByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionAnswerByTitle_InputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionAnswerByTitle" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionAnswerByTitle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionAnswerByTitleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionAnswersByQuestionId_InputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionAnswersByQuestionId" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_findQuestionAnswersByQuestionId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findQuestionAnswersByQuestionIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_addQuestionAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:addQuestionAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_addQuestionAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addQuestionAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_updateQuestionAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateQuestionAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_updateQuestionAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateQuestionAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_deleteQuestionAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteQuestionAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IDailyService_deleteQuestionAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteQuestionAnswerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDailyService">
+    <wsdl:operation name="getAllQuestions">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/getAllQuestions" message="tns:IDailyService_getAllQuestions_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/getAllQuestionsResponse" message="tns:IDailyService_getAllQuestions_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getQuestionById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/getQuestionById" message="tns:IDailyService_getQuestionById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/getQuestionByIdResponse" message="tns:IDailyService_getQuestionById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionByTitle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/findQuestionByTitle" message="tns:IDailyService_findQuestionByTitle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/findQuestionByTitleResponse" message="tns:IDailyService_findQuestionByTitle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionByDescription">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/findQuestionByDescription" message="tns:IDailyService_findQuestionByDescription_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/findQuestionByDescriptionResponse" message="tns:IDailyService_findQuestionByDescription_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/addQuestion" message="tns:IDailyService_addQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/addQuestionResponse" message="tns:IDailyService_addQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/updateQuestion" message="tns:IDailyService_updateQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/updateQuestionResponse" message="tns:IDailyService_updateQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/deleteQuestion" message="tns:IDailyService_deleteQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/deleteQuestionResponse" message="tns:IDailyService_deleteQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllQuestionAnswers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/getAllQuestionAnswers" message="tns:IDailyService_getAllQuestionAnswers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/getAllQuestionAnswersResponse" message="tns:IDailyService_getAllQuestionAnswers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getQuestionAnswerById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/getQuestionAnswerById" message="tns:IDailyService_getQuestionAnswerById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/getQuestionAnswerByIdResponse" message="tns:IDailyService_getQuestionAnswerById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionAnswerByTitle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/findQuestionAnswerByTitle" message="tns:IDailyService_findQuestionAnswerByTitle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/findQuestionAnswerByTitleResponse" message="tns:IDailyService_findQuestionAnswerByTitle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionAnswersByQuestionId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/findQuestionAnswersByQuestionId" message="tns:IDailyService_findQuestionAnswersByQuestionId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/findQuestionAnswersByQuestionIdResponse" message="tns:IDailyService_findQuestionAnswersByQuestionId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="addQuestionAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/addQuestionAnswer" message="tns:IDailyService_addQuestionAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/addQuestionAnswerResponse" message="tns:IDailyService_addQuestionAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateQuestionAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/updateQuestionAnswer" message="tns:IDailyService_updateQuestionAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/updateQuestionAnswerResponse" message="tns:IDailyService_updateQuestionAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteQuestionAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDailyService/deleteQuestionAnswer" message="tns:IDailyService_deleteQuestionAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDailyService/deleteQuestionAnswerResponse" message="tns:IDailyService_deleteQuestionAnswer_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="basicHttp" type="tns:IDailyService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAllQuestions">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/getAllQuestions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQuestionById">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/getQuestionById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionByTitle">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/findQuestionByTitle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionByDescription">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/findQuestionByDescription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addQuestion">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/addQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateQuestion">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/updateQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteQuestion">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/deleteQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllQuestionAnswers">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/getAllQuestionAnswers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getQuestionAnswerById">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/getQuestionAnswerById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionAnswerByTitle">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/findQuestionAnswerByTitle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findQuestionAnswersByQuestionId">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/findQuestionAnswersByQuestionId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addQuestionAnswer">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/addQuestionAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateQuestionAnswer">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/updateQuestionAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteQuestionAnswer">
+      <soap:operation soapAction="http://tempuri.org/IDailyService/deleteQuestionAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DailyService">
+    <wsdl:port name="basicHttp" binding="tns:basicHttp">
+      <soap:address location="http://localhost:32595/DailyService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

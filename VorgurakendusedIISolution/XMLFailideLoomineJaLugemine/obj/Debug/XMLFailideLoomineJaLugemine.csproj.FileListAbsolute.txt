@@ -1,0 +1,8 @@
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\bin\Debug\Klassiruumid.xml
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\bin\Debug\RetseptiRaamat.xml
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\bin\Debug\XMLFailideLoomineJaLugemine.exe.config
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\bin\Debug\XMLFailideLoomineJaLugemine.exe
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\bin\Debug\XMLFailideLoomineJaLugemine.pdb
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\obj\Debug\XMLFailideLoomineJaLugemine.csprojResolveAssemblyReference.cache
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\obj\Debug\XMLFailideLoomineJaLugemine.exe
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\VorgurakendusedIISolution\XMLFailideLoomineJaLugemine\obj\Debug\XMLFailideLoomineJaLugemine.pdb

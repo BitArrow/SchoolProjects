@@ -1,0 +1,52 @@
+﻿<Window x:Class="InimeneWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" DataContext="{Binding SelectedItem, ElementName=lbInimesed}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="250"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock VerticalAlignment="Center" Text="Eesnimi:" Grid.Row="0" Grid.Column="0" Height="16"></TextBlock>
+                <TextBlock VerticalAlignment="Center" Text="Perenimi:" Grid.Row="1" Grid.Column="0" Height="16"></TextBlock>
+                <TextBlock VerticalAlignment="Center" Text="Vanus:" Grid.Row="2" Grid.Column="0" Height="16"></TextBlock>
+                <TextBox Name="txtEesnimi" Grid.Row="0" Grid.Column="1" Height="20" Text="{Binding Eesnimi}"></TextBox>
+                <TextBox Name="txtPerenimi" Grid.Row="1" Grid.Column="1" Height="20" Text="{Binding Perenimi}"></TextBox>
+                <TextBox Name="txtVanus" Grid.Row="2" Grid.Column="1" Height="20" Text="{Binding Vanus}"></TextBox>
+                <Button Name="btnValmis" Grid.Row="2" Grid.Column="2" Height="20" Width="100" Click="btnValmis_Click">Valmis</Button>
+            </Grid>
+            <Grid Grid.Row="1">
+                <ListBox Name="lbInimesed" SelectionChanged="lbInimesed_SelectionChanged" ItemsSource="{Binding Inimesed}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{Binding Eesnimi}"></TextBlock>
+                                <TextBlock Grid.Column="1" Text="{Binding Perenimi}"></TextBlock>
+                                <TextBlock Grid.Column="2" Text="{Binding Vanus}"></TextBlock>
+                            </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

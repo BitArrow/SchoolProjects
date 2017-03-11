@@ -1,0 +1,1 @@
+C:\Users\Mait\Desktop\LatestTodoApp\TodoApp\TodoApp.csproj;x86

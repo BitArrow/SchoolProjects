@@ -1,0 +1,24 @@
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\DAL.dll.config
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\DAL.dll
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\DAL.pdb
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\EntityFramework.dll
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\Models.dll
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\Models.pdb
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\EntityFramework.xml
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\obj\Debug\DAL.dll
+c:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNETArvestus\DAL\obj\Debug\DAL.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\DAL.dll.config
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\DAL.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\DAL.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\EntityFramework.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\Models.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\Models.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\EntityFramework.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\obj\Debug\DAL.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETArvestus\DAL\obj\Debug\DAL.pdb

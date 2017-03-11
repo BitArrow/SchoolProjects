@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="retseptiraamat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="retsept">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pealkiri" type="xs:string" />
+              <xs:element name="tutvustus" type="xs:string" />
+              <xs:element name="valmistamine" type="xs:string" />
+              <xs:element name="koostisosad">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="50" name="koostisosa">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="kogus" type="xs:unsignedInt" use="required" />
+                            <xs:attribute name="yhik" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="aktiivne" type="xs:boolean" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

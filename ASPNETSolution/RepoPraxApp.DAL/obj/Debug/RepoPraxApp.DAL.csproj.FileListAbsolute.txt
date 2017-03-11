@@ -1,0 +1,28 @@
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.DAL.dll.config
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.DAL.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.DAL.pdb
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.Models.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.Models.pdb
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.pdb
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.Migrations.InitialMigration.resources
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.csproj.GenerateResource.Cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.DAL.dll.config
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.DAL.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.DAL.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.Models.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\RepoPraxApp.Models.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.csprojResolveAssemblyReference.cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.Migrations.InitialMigration.resources
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.csproj.GenerateResource.Cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.DAL\obj\Debug\RepoPraxApp.DAL.pdb

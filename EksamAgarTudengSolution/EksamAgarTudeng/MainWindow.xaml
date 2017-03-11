@@ -1,0 +1,121 @@
+﻿<Window x:Class="EksamAgarTudeng.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="700">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" x:Name="btnRefresh" Click="btnRefresh_Click">Refresh</Button>
+            
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*"></RowDefinition>
+                    <RowDefinition Height="15*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" FontSize="10" Margin="0,0,0,19" Grid.RowSpan="2">Eesnimi</Label>
+                <Label Grid.Row="0" Grid.Column="1" FontSize="10" Margin="0,0,0,19" Grid.RowSpan="2">Perenimi</Label>
+                <TextBox Grid.Row="1" Grid.Column="0" x:Name="tbFindFirstName"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="tbFindLastName"></TextBox>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnSearchPerson" Click="btnSearchPerson_Click">Otsi</Button>
+            </Grid>
+            
+            <Grid Grid.Column="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Keskmine hinne:</Label>
+                <TextBlock Grid.Column="1" x:Name="tbAvgGrade" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding AvgGrade}" FontSize="20"></TextBlock>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="15*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            
+            <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" >Õpilased</Label>
+            <ListBox Grid.Row="1" Grid.Column="0" x:Name="lbxStudent" ItemsSource="{Binding Person}" SelectionChanged="lbxStudent_SelectionChanged" MouseDoubleClick="lbxStudent_MouseDoubleClick">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" x:Name="tbStudFName" Text="{Binding LastName}" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Grid.Column="1" x:Name="tbStudLName" Text="{Binding FirstName}" HorizontalAlignment="Center"></TextBlock>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button Grid.Row="3" Grid.Column="0" Click="btnAddStudent_Click" x:Name="btnAddStudent">Lisa Õpilane</Button>
+            
+            
+            <Label Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" >Ained</Label>
+            <ListBox Grid.Row="1" Grid.Column="1" x:Name="lbxSubject" ItemsSource="{Binding Subject}" SelectionChanged="lbxSubject_SelectionChanged" MouseDoubleClick="lbxSubject_MouseDoubleClick">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <TextBlock x:Name="tbSubjectName" Text="{Binding SubjectName}" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock x:Name="tbSubjectId" Text="{Binding SubjectId}" Visibility="Collapsed"></TextBlock>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button Grid.Row="3" Grid.Column="1" x:Name="btnAddSubject" Click="btnAddSubject_Click">Lisa Aine</Button>
+            
+            
+            <Label Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" >Hinded</Label>
+            <ListBox Grid.Row="1" Grid.Column="2" x:Name="lbxGrade" ItemsSource="{Binding Grades}" MouseDoubleClick="lbxGrade_MouseDoubleClick" SelectionChanged="lbxGrade_SelectionChanged">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <TextBlock x:Name="tbGrade" Text="{Binding Grade}" HorizontalAlignment="Center"></TextBlock>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Grid Grid.Row="3" Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="tbAddGrade"></TextBox>
+                <Button Grid.Column="1" x:Name="btnAddGrade" Click="btnAddGrade_Click">Lisa hinne</Button>
+            </Grid>
+            
+        </Grid>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<retseptiraamat>
+  <retsept aktiivne="true">
+    <!--CDATA võimaldab kirjutada igasugu "keelatud" sümboleid -->
+    <pealkiri><![CDATA[Kartuli vorm]]></pealkiri>
+    <tutvustus><![CDATA[Kartuli vorm on üli hea, eriti kui soovid kartulit]]></tutvustus>
+    <valmistamine><![CDATA[Pane kartul vormile]]></valmistamine>
+    <koostisosad>
+      <koostisosa kogus="2" yhik="kg"><![CDATA[Kartul]]></koostisosa>
+      <koostisosa kogus="1" yhik="l"><![CDATA[Piim]]></koostisosa>
+      <koostisosa kogus="4" yhik="sp"><![CDATA[Jahu]]></koostisosa>
+      <!--<koostisosa>
+        <kogus>4</kogus>
+        <yhik>sp</yhik>
+        <materjal>jahu</materjal>
+      </koostisosa>-->
+    </koostisosad>
+  </retsept>
+
+  <retsept aktiivne="true">
+    <pealkiri><![CDATA[Viineri pirukas "VP"]]></pealkiri>
+    <tutvustus><![CDATA[Vägev viieri pirukas!]]></tutvustus>
+    <valmistamine><![CDATA[Topi viiner taignasse]]></valmistamine>
+    <koostisosad>
+      <koostisosa kogus="15" yhik="tk"><![CDATA[Viinerit]]></koostisosa>
+      <koostisosa kogus="2" yhik="kg"><![CDATA[Leht tainas]]></koostisosa>
+      <koostisosa kogus="2" yhik="sp"><![CDATA[Vett]]></koostisosa>
+    </koostisosad>
+  </retsept>
+
+  <retsept aktiivne="true">
+    <pealkiri><![CDATA[Viineri pirukas ilma viinerita]]></pealkiri>
+    <tutvustus><![CDATA[Vägev vorst pirukas!]]></tutvustus>
+    <valmistamine><![CDATA[Topi vorst taignasse]]></valmistamine>
+    <koostisosad>
+      <koostisosa kogus="10" yhik="kg"><![CDATA[Vorsti]]></koostisosa>
+      <koostisosa kogus="2" yhik="kg"><![CDATA[Leht tainas]]></koostisosa>
+      <koostisosa kogus="2" yhik="sp"><![CDATA[Muna]]></koostisosa>
+    </koostisosad>
+  </retsept>
+</retseptiraamat>

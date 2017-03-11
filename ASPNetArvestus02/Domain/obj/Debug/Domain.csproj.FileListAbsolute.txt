@@ -1,0 +1,20 @@
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\bin\Debug\Domain.dll.config
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\bin\Debug\Domain.dll
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\bin\Debug\Domain.pdb
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.dll
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.xml
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\obj\Debug\Domain.dll
+C:\Users\Tauri\Documents\Visual Studio 2015\Projects\ASPNetArvestus02\Domain\obj\Debug\Domain.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\bin\Debug\Domain.dll.config
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\bin\Debug\Domain.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\bin\Debug\Domain.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\obj\Debug\Domain.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNetArvestus02\Domain\obj\Debug\Domain.pdb

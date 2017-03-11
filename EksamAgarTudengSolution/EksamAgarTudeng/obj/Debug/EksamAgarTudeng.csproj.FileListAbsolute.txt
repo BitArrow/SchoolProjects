@@ -1,0 +1,75 @@
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.exe.config
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.exe
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.pdb
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.csprojResolveAssemblyReference.cache
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\MainWindow.baml
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\MainWindow.g.cs
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\App.g.cs
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng_MarkupCompile.cache
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.g.resources
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.Properties.Resources.resources
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.csproj.GenerateResource.Cache
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.exe
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.pdb
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\DAL.dll
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.dll
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\Models.dll
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\DAL.pdb
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\Models.pdb
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.xml
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddStudentWindow.baml
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddStudentWindow.g.cs
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddSubjectWindow.baml
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Draakoni Tants\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddSubjectWindow.g.cs
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.exe.config
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.exe
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.pdb
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.exe
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.pdb
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\DAL.dll
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.dll
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.SqlServer.dll
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\Models.dll
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\DAL.pdb
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\Models.pdb
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.xml
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.SqlServer.xml
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.csprojResolveAssemblyReference.cache
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddSubjectWindow.baml
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\MainWindow.baml
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddStudentWindow.baml
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddSubjectWindow.g.cs
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\MainWindow.g.cs
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddStudentWindow.g.cs
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\App.g.cs
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng_MarkupCompile.cache
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.g.resources
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.Properties.Resources.resources
+D:\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.csproj.GenerateResource.Cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.exe.config
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.exe
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.exe
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EksamAgarTudeng.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\DAL.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\Models.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\DAL.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\Models.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.csprojResolveAssemblyReference.cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddSubjectWindow.baml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\MainWindow.baml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddStudentWindow.baml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddSubjectWindow.g.cs
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\MainWindow.g.cs
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\AddStudentWindow.g.cs
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\App.g.cs
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng_MarkupCompile.cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.g.resources
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.Properties.Resources.resources
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\EksamAgarTudengSolution\EksamAgarTudeng\obj\Debug\EksamAgarTudeng.csproj.GenerateResource.Cache

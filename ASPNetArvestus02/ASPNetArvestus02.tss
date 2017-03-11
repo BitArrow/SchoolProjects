@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\akaver\documents\visual studio 2015\Projects\ASPNetArvestus02\ASPNetArvestus02\Controllers\AuthorBooksController.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\aspnetarvestus02\controllers\commentscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\aspnetarvestus02\controllers\authorscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\aspnetarvestus02\controllers\publisherscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\aspnetarvestus02\views\shared\_layout.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\aspnetarvestus02\controllers\bookscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\domain\authorbook.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\domain\comment.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\domain\author.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\domain\publisher.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\domain\book.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\akaver\documents\visual studio 2015\projects\aspnetarvestus02\dal\databasecontext.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

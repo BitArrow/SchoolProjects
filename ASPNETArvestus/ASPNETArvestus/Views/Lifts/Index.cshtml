@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Models.Lift>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LiftNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaxWeight)
+        </th>
+        <th>Bookings count</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LiftNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaxWeight)
+        </td>
+        <td>
+            @item.Bookings.Count
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LiftId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LiftId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LiftId })
+        </td>
+    </tr>
+}
+
+</table>

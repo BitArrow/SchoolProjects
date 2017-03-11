@@ -1,0 +1,12 @@
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\ContactApp.DAL.dll.config
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\ContactApp.DAL.dll
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\ContactApp.DAL.pdb
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\ContactApp.Models.dll
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\EntityFramework.dll
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\ContactApp.Models.pdb
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\EntityFramework.xml
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\obj\Debug\ContactApp.DAL.csprojResolveAssemblyReference.cache
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\obj\Debug\ContactApp.DAL.dll
+c:\users\tauri\documents\visual studio 2015\Projects\ASPNETSolution\ContactApp.DAL\obj\Debug\ContactApp.DAL.pdb

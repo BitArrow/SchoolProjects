@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="ToDoApp.Views.ItemView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ToDoApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="DeleteItemBtn" Label="Delete" Icon="Delete"></AppBarButton>
+            <AppBarButton x:Name="EditItemBtn" Label="Edit" Icon="Edit"></AppBarButton>
+            <!--TODO tekst ja nupud dünaamiliselt muutuvaks??-->
+            <AppBarButton x:Name="StatusChangeBtn" Label="Done/Undone?" Icon="LikeDislike"></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="View Item" 
+                   Style="{ThemeResource  TitleTextBlockStyle}" 
+                   VerticalAlignment="Center" />
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0">Name:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Heading}"></TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="0">Time:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding DueDate}"></TextBlock>
+            
+            <TextBlock Grid.Row="2" Grid.Column="0">Location:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Location}"></TextBlock>
+            
+            <TextBlock Grid.Row="3" Grid.Column="0">Category:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding Catecory.Name}"></TextBlock>
+
+            <TextBlock Grid.Row="4" Grid.Column="0">Description:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Content}"></TextBlock>
+
+            <TextBlock Grid.Row="5" Grid.Column="0">Priority:</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding Priority}"></TextBlock>
+
+            <TextBlock Grid.Row="6" Grid.Column="0">State:</TextBlock>
+            <TextBlock Grid.Row="6" Grid.Column="1" Text="{Binding Status}"></TextBlock>
+        </Grid>
+        
+    </Grid>
+</Page>

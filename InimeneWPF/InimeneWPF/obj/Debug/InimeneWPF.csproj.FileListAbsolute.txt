@@ -1,0 +1,16 @@
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\bin\Debug\InimeneWPF.exe.config
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\bin\Debug\InimeneWPF.exe
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\bin\Debug\InimeneWPF.pdb
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.csprojResolveAssemblyReference.cache
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\MainWindow.baml
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\App.g.cs
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF_MarkupCompile.cache
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.g.resources
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.Properties.Resources.resources
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.csproj.GenerateResource.Cache
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.exe
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.pdb
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\InimeneWPF\InimeneWPF\bin\Debug\InimeneWPF.exe.config
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.exe
+C:\Users\Tauri\SkyDrive\Visual Studio projektid\Visual studio 2013\.Kooli projektid\InimeneWPF\InimeneWPF\obj\Debug\InimeneWPF.pdb

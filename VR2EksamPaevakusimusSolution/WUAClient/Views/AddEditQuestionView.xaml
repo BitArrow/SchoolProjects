@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="WUAClient.Views.AddEditQuestionView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WUAClient.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="addAnswer" Label="Add Answer" Icon="Add" Click="addAnswer_Click"></AppBarButton>
+            <AppBarButton x:Name="btnSave" Label="Save and Close" Icon="Save" Click="btnSave_Click"></AppBarButton>
+            <AppBarButton x:Name="btnDelete" Label="Delete" Icon="Delete" Click="btnDelete_Click" ></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <TextBlock FontSize="20" Padding="15,5" >Päevaküsimused :)</TextBlock>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0">
+                    <TextBlock>Title</TextBlock>
+                    <TextBox Text="{Binding Question.Title, Mode=TwoWay}"></TextBox>
+                    <TextBlock >Description</TextBlock>
+                    <TextBox Text="{Binding Question.Description, Mode=TwoWay}" TextWrapping="Wrap" Height="75"></TextBox>
+                    <CheckBox IsChecked="{Binding Question.Visible, Mode=TwoWay}" >Visible</CheckBox>
+                    <CheckBox IsChecked="{Binding Question.Published, Mode=TwoWay}" >Publish</CheckBox>
+                </StackPanel>
+                <StackPanel Grid.Row="1">
+
+                    <TextBlock  Padding="15,5" >Küsimuse vastused</TextBlock>
+                    <ListView x:Name="lvQuestionAnswers" ItemsSource="{Binding FilteredQuestionAnswers}" IsItemClickEnabled="True" ItemClick="lvQuestionAnswers_ItemClick"
+                        HorizontalAlignment="Stretch" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Title}"></TextBlock>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

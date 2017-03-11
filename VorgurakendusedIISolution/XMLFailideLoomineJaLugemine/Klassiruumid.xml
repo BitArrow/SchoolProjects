@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<klassid>
+  <klass>
+    <number><![CDATA[101]]></number>  <!--Klassi number-->
+    <kasutus><![CDATA[Bioloogia]]></kasutus>  <!--Klassi kasutatavus-->
+    <arvutid>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A1011]]></number>
+        <config name="IP"><![CDATA[192.168.1.150]]></config>
+        <config name="OS"><![CDATA[Windows 98]]></config>
+        <config name="MAC"><![CDATA[01:23:45:67:89:ab]]></config>
+      </arvuti>
+    </arvutid>
+  </klass>
+  
+  <klass>
+    <number><![CDATA[201]]></number>
+    <kasutus><![CDATA[Arvutiklass]]></kasutus>
+    <arvutid>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A2011]]></number>
+        <config name="IP"><![CDATA[192.168.1.200]]></config>
+        <config name="OS"><![CDATA[Windows ME]]></config>
+        <config name="MAC"><![CDATA[01:23:45:67:89:ac]]></config>
+      </arvuti>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A2012]]></number>
+        <config name="IP"><![CDATA[192.168.1.201]]></config>
+        <config name="OS"><![CDATA[Windows ME]]></config>
+        <config name="MAC"><![CDATA[01:23:45:67:89:ad]]></config>
+        <config name="RAM"><![CDATA[512MB]]></config>
+      </arvuti>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A2013]]></number>
+        <config name="IP"><![CDATA[192.168.1.202]]></config>
+        <config name="OS"><![CDATA[Windows ME]]></config>
+        <config name="MAC"><![CDATA[01:23:45:67:89:ae]]></config>
+      </arvuti>
+    </arvutid>
+  </klass>
+
+  <klass>
+    <number><![CDATA[202]]></number>
+    <kasutus><![CDATA[Arvutiklass]]></kasutus>
+    <arvutid>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A2021]]></number>
+        <config name="IP"><![CDATA[192.168.1.215]]></config>
+        <config name="OS"><![CDATA[Mac OS X 10.0]]></config>
+        <config name="MAC"><![CDATA[01:23:70:67:89:ac]]></config>
+      </arvuti>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A2022]]></number>
+        <config name="IP"><![CDATA[192.168.1.216]]></config>
+        <config name="OS"><![CDATA[Mac OS X 10.0]]></config>
+        <config name="MAC"><![CDATA[01:23:70:67:89:ad]]></config>
+      </arvuti>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A2023]]></number>
+        <config name="IP"><![CDATA[192.168.1.217]]></config>
+        <config name="OS"><![CDATA[Mac OS X 10.0]]></config>
+        <config name="MAC"><![CDATA[01:23:70:67:89:ae]]></config>
+      </arvuti>
+    </arvutid>
+  </klass>
+
+  <klass>
+    <number><![CDATA[001]]></number>
+    <kasutus><![CDATA[Kehaline]]></kasutus>
+    <arvutid>
+      <arvuti aktiivne="true">
+        <number><![CDATA[A1011]]></number>
+        <config name="IP"><![CDATA[192.168.1.5]]></config>
+        <config name="OS"><![CDATA[Windows 10]]></config>
+        <config name="MAC"><![CDATA[05:23:45:67:89:ab]]></config>
+      </arvuti>
+    </arvutid>
+  </klass>
+</klassid>

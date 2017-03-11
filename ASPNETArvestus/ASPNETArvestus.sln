@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETArvestus", "ASPNETArvestus\ASPNETArvestus.csproj", "{5BC95A4F-2D3F-42BF-9432-13B1CBEDC845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{C2F1AAD9-0FCE-4F12-9D9A-1072EE172786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{4D37A82D-CE76-4C8C-88BA-79EEEB9C8818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC95A4F-2D3F-42BF-9432-13B1CBEDC845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC95A4F-2D3F-42BF-9432-13B1CBEDC845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC95A4F-2D3F-42BF-9432-13B1CBEDC845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC95A4F-2D3F-42BF-9432-13B1CBEDC845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F1AAD9-0FCE-4F12-9D9A-1072EE172786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F1AAD9-0FCE-4F12-9D9A-1072EE172786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F1AAD9-0FCE-4F12-9D9A-1072EE172786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F1AAD9-0FCE-4F12-9D9A-1072EE172786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D37A82D-CE76-4C8C-88BA-79EEEB9C8818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D37A82D-CE76-4C8C-88BA-79EEEB9C8818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D37A82D-CE76-4C8C-88BA-79EEEB9C8818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D37A82D-CE76-4C8C-88BA-79EEEB9C8818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

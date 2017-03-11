@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="WUAClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WUAClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <EntranceThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="btnAllQuestions" Label="All questions" Icon="AllApps" Click="btnAllQuestions_Click"></AppBarButton>
+            <AppBarButton x:Name="btnAddQuestion" Label="Add Category" Icon="Add" Click="btnAddQuestion_Click"></AppBarButton>
+            <AppBarButton x:Name="btnFilter" Label="Filter" Icon="Filter" Click="btnFilter_Click"></AppBarButton>
+            <AppBarButton x:Name="btnClearFilter" Visibility="Collapsed" Label="Clear filter" Icon="Clear" Click="btnFilter_Click"></AppBarButton>
+        
+        </CommandBar>
+    </Page.BottomAppBar>
+    
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <StackPanel Orientation="Vertical">
+            <TextBlock FontSize="20" Padding="15,5" >Päevaküsimused :)</TextBlock>
+            <TextBlock>Filter by Title</TextBlock>
+            <TextBox x:Name="txbFilterTitle"></TextBox>
+            <TextBlock>Filter by Description</TextBlock>
+            <TextBox x:Name="txbFilterDesc"></TextBox>
+            <ListView x:Name="lvQuestions" ItemsSource="{Binding FilteredQuestions}" IsItemClickEnabled="True" ItemClick="lvQuestions_ItemClick"
+                  HorizontalAlignment="Stretch" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Title}"></TextBlock>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>

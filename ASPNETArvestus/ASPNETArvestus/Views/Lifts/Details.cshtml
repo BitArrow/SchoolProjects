@@ -1,0 +1,64 @@
+﻿@model ASPNETArvestus.ViewModels.LiftViewModel
+
+    @{
+        ViewBag.Title = "Details";
+    }
+
+    <h2>Details</h2>
+
+    <div>
+        <h4>Lift</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Lift.LiftNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Lift.LiftNumber)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Lift.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Lift.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Lift.MaxWeight)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Lift.MaxWeight)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Lift.LiftId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+
+<div>
+    <h4>Lift bookings</h4>
+    <hr/>
+        @foreach (var booking in Model.Bookings)
+        {
+            <dl class="dl-horizontal">
+                <dt>@Html.DisplayNameFor(model => booking.Client.FirstLastname)</dt>
+                <dd>@Html.DisplayFor(model => booking.Client.FirstLastname)</dd>
+
+                <dt>@Html.DisplayNameFor(model => booking.Notes)</dt>
+                <dd>@Html.DisplayFor(model => booking.Notes)</dd>
+
+                <dt>@Html.DisplayNameFor(model => booking.Start)</dt>
+                <dd>@Html.DisplayFor(model => booking.Start)</dd>
+
+                <dt>@Html.DisplayNameFor(model => booking.Finish)</dt>
+                <dd>@Html.DisplayFor(model => booking.Finish)</dd>
+            </dl>
+            <hr />
+        }
+</div>

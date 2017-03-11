@@ -1,0 +1,20 @@
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\bin\Debug\RepoPraxApp.Models.dll.config
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\bin\Debug\RepoPraxApp.Models.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\bin\Debug\RepoPraxApp.Models.pdb
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.xml
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\obj\Debug\RepoPraxApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\obj\Debug\RepoPraxApp.Models.dll
+C:\Users\Tauri\documents\visual studio 2015\Projects\ASPNETSolution\RepoPraxApp.Models\obj\Debug\RepoPraxApp.Models.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\bin\Debug\RepoPraxApp.Models.dll.config
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\bin\Debug\RepoPraxApp.Models.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\bin\Debug\RepoPraxApp.Models.pdb
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\obj\Debug\RepoPraxApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\obj\Debug\RepoPraxApp.Models.dll
+C:\Users\tauri\OneDrive\Visual Studio projektid\Visual Studio 2015\ASPNETSolution\RepoPraxApp.Models\obj\Debug\RepoPraxApp.Models.pdb

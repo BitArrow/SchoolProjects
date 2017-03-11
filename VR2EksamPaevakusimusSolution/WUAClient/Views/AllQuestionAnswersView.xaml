@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="WUAClient.Views.AllQuestionAnswersView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WUAClient.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="btnFilter" Label="Filter" Icon="Filter" Click="btnFilter_Click"></AppBarButton>
+            <AppBarButton x:Name="btnClearFilter" Visibility="Collapsed" Label="Clear filter" Icon="Clear" Click="btnFilter_Click"></AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel Orientation="Vertical">
+            <TextBlock FontSize="20" Padding="15,5" >Kõik vastused</TextBlock>
+            <TextBlock>Filter by Title</TextBlock>
+            <TextBox x:Name="txbFilterTitle"></TextBox>
+            <ListView ItemsSource="{Binding FilteredQuestions}" IsItemClickEnabled="True"
+                  HorizontalAlignment="Stretch" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Title}"></TextBlock>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>

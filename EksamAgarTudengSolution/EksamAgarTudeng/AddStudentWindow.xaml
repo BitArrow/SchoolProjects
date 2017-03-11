@@ -1,0 +1,25 @@
+﻿<Window x:Class="EksamAgarTudeng.AddStudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lisa õpilane" Height="212" Width="548">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="7*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Label x:Name="lblToDo" >Õpilase lisamine</Label>
+        <Label Grid.Row="1">Eesnimi</Label>
+        <Label Grid.Row="2">Perenimi</Label>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txbFirstName"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txbLastName"></TextBox>
+        <Button Grid.Row="3" Grid.Column="2" Click="Button_Click">Valmis</Button>
+    </Grid>
+</Window>
